@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-To use SSH Cracker, you need to provide a target host, port, username list, password list, and optionally a proxy list. Below is an example command to run the script:
+To use Uns3cur3SSH, you need to provide a target host, port, username list, password list, and optionally a proxy list. Below is an example command to run the script:
 
 ```sh
 python Uns3cur3SSH.py target_host 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
@@ -68,7 +68,7 @@ python Uns3cur3SSH.py target_host 22 usernames.txt passwords.txt --proxy-list pr
     ```
 
 ## Example
-Running SSH Cracker with a target host, username list, password list, and proxy list:
+Running Uns3cur3SSH with a target host, username list, password list, and proxy list:
 ```sh
 python Uns3cur3SSH.py example.com 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
 ```
