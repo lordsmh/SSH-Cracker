@@ -73,6 +73,9 @@ Running SSH Cracker with a target host, username list, password list, and proxy 
 python Uns3cur3SSH.py example.com 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
 ```
 
+## Author
+Tool developed by `lord_smh`.
+
 ## License
 This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](https://github.com/lordsmh/Uns3cur3SSH/blob/main/LICENSE) file for details.
 
