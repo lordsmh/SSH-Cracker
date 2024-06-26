@@ -1,8 +1,8 @@
 
-# SSH Cracker
+# Uns3cur3SSH
 
 ## Overview
-SSH Cracker is a professional tool designed for ethical penetration testing and security assessments Develops by LordSMH. It attempts to brute-force SSH credentials using a combination of usernames and passwords while optionally routing traffic through a list of proxies to avoid detection and IP bans.
+Uns3cur3SSH is a professional tool designed for ethical penetration testing and security assessments Develops by LordSMH. It attempts to brute-force SSH credentials using a combination of usernames and passwords while optionally routing traffic through a list of proxies to avoid detection and IP bans.
 
 ## Features
 - **Multi-threading/Parallel Processing**: Uses concurrent threads to speed up the cracking process.
@@ -18,7 +18,7 @@ To get started, clone the repository and install the required dependencies.
 
 ### Clone the Repository
 ```sh
-git clone https://github.com/lordsmh/ssh-cracker.git
+git clone https://github.com/lordsmh/sUns3cur3SSH.git
 cd ssh-cracker
 ```
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 To use SSH Cracker, you need to provide a target host, port, username list, password list, and optionally a proxy list. Below is an example command to run the script:
 
 ```sh
-python ssh_cracker.py target_host 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
+python Uns3cur3SSH.py target_host 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
 ```
 
 ### Arguments
@@ -70,7 +70,7 @@ python ssh_cracker.py target_host 22 usernames.txt passwords.txt --proxy-list pr
 ## Example
 Running SSH Cracker with a target host, username list, password list, and proxy list:
 ```sh
-python ssh_cracker.py example.com 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
+python Uns3cur3SSH.py example.com 22 usernames.txt passwords.txt --proxy-list proxies.txt --max-workers 20 --timeout 10
 ```
 
 ## License
