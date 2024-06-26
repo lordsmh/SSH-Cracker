@@ -19,7 +19,7 @@ To get started, clone the repository and install the required dependencies.
 ### Clone the Repository
 ```sh
 git clone https://github.com/lordsmh/sUns3cur3SSH.git
-cd ssh-cracker
+cd Uns3cur3SSH
 ```
 
 ### Install Dependencies
@@ -74,7 +74,7 @@ python Uns3cur3SSH.py example.com 22 usernames.txt passwords.txt --proxy-list pr
 ```
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for details.
+This project is licensed under the GNU Affero General Public License v3.0. See the [LICENSE](https://github.com/lordsmh/Uns3cur3SSH/blob/main/LICENSE) file for details.
 
 ## Disclaimer
 This tool is intended for educational purposes and ethical penetration testing only. Unauthorized use of this tool to access or damage any system without explicit permission is illegal and unethical. Use responsibly.
@@ -83,4 +83,4 @@ This tool is intended for educational purposes and ethical penetration testing o
 Contributions are welcome! Please fork the repository and submit pull requests.
 
 ## Contact
-For any questions or issues, H4ckL0rd5@gmail.com
+For any questions or issues, Email:H4ckL0rd5@gmail.com
